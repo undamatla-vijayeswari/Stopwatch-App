@@ -1,17 +1,45 @@
-# flutter_application_1
+# Stopwatch
 
-A new Flutter project.
+A simple Flutter stopwatch application for tracking elapsed time with precise timing controls.
+
+## Features
+
+* Start the stopwatch
+* Pause the stopwatch
+* Resume timing
+* Reset the stopwatch
+* Millisecond-level time display
+* Simple and responsive interface
+
+## Tech Stack
+
+* Flutter
+* Dart
+* VS Code
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Clone the repository and install the dependencies:
 
-A few resources to get you started if this is your first Flutter project:
+```bash
+git clone https://github.com/undamatla-vijayeswari/Stopwatch-App.git
+cd Stopwatch-App
+flutter pub get
+```
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+Run the application in Chrome:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```bash
+flutter run -d chrome
+```
+
+## Project Purpose
+
+This project was built to practice Flutter application development, timer functionality, state management, and building an interactive user interface.
+
+## Future Improvements
+
+* Lap time recording
+* Multiple timer modes
+* Improved time formatting
+* Persistent session history
